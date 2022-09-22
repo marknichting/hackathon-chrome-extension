@@ -1,6 +1,6 @@
 {
-  "name": "Rick Roll",
-  "description": "We will Rick-Roll the user!",
+  "name": "Productivity Booster",
+  "description": "Provides variety of features that will boost your productivity while using chrome",
   "version": "1.0",
   "manifest_version": 3,
   "content_scripts": [
@@ -8,5 +8,13 @@
     "matches": ["<all_urls>"],
     "js": ["./main.js"]
   }
-]
+],
+"icons": {
+    "16": "./icons/pencil16.png",
+    "32": "./icons/pencil32.png",
+    "48": "./icons/pencil64.png",
+    "128": "./icons/pencil128.png"
+  }
 }
+
+
